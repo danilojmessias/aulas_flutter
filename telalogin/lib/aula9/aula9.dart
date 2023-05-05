@@ -47,7 +47,7 @@ class _Aula09State extends State<Aula09> {
               icon: Icon(Icons.sports_soccer),
             ),
             BottomNavigationBarItem(
-              label: 'Eterno',
+              label: 'Eternos',
               icon: Icon(Icons.star),
               activeIcon: Icon(Icons.hotel_class),
             ),
