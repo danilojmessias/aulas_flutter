@@ -1,5 +1,7 @@
 import 'package:aulas_app/app/pages/login/login_page.dart';
 import 'package:aulas_app/aula10/aula10.dart';
+import 'package:aulas_app/aula12/views/cardapio_view.dart';
+import 'package:aulas_app/aula12/views/pedido_view.dart';
 import 'package:aulas_app/aula9/aula9.dart';
 import 'package:aulas_app/aula9/view/aula10_future.dart';
 import 'package:aulas_app/aula9/view/aula9_dashbord.dart';
@@ -19,7 +21,7 @@ class LoginApp extends StatelessWidget {
         brightness: Brightness.dark,
         useMaterial3: true,
       ),
-      initialRoute: '/aula10_future',
+      initialRoute: '/aula12',
       routes: {
         '/': (context) => const LoginPage(),
         '/aula9': (context) => const Aula09(),
@@ -27,6 +29,8 @@ class LoginApp extends StatelessWidget {
         '/aula9_disciplinas': (context) => const Aula09Disciplinas(),
         '/aula10': (context) => const Aula10(),
         '/aula10_future': (context) => const Aula10Future(),
+        '/aula12': (context) => const CardapioView(),
+        '/pedido_view': (context) => const PedidoView(),
       },
     );
   }
