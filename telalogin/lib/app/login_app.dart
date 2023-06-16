@@ -3,6 +3,7 @@ import 'package:aulas_app/aula10/aula10.dart';
 import 'package:aulas_app/aula12/views/cardapio_view.dart';
 import 'package:aulas_app/aula12/views/pedido_view.dart';
 import 'package:aulas_app/aula14/aula14.dart';
+import 'package:aulas_app/aula14/view/lista_alunos_view.dart';
 import 'package:aulas_app/aula9/aula9.dart';
 import 'package:aulas_app/aula9/view/aula10_future.dart';
 import 'package:aulas_app/aula9/view/aula9_dashbord.dart';
@@ -22,7 +23,7 @@ class LoginApp extends StatelessWidget {
         brightness: Brightness.dark,
         useMaterial3: true,
       ),
-      initialRoute: '/aula14',
+      initialRoute: '/lista_aluno',
       routes: {
         '/': (context) => const LoginPage(),
         '/aula9': (context) => const Aula09(),
@@ -33,6 +34,7 @@ class LoginApp extends StatelessWidget {
         '/aula12': (context) => const CardapioView(),
         '/pedido_view': (context) => const PedidoView(),
         '/aula14': (context) => const Aula14(),
+        '/lista_aluno': (context) => const ListaAlunoView(),
       },
     );
   }
