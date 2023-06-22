@@ -19,7 +19,7 @@ class Aula14 extends StatelessWidget {
             width: 250,
             child: ElevatedButton(
                 onPressed: () => testarBanco(),
-                child: const Text('Executar demo do BD')),
+                child: const Text('Executar demo do Banco de Dados')),
           )
         ],
       )),
